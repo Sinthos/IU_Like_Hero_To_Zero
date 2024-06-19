@@ -13,7 +13,7 @@ public class CO2Werte {
     private Long id;
 
     @Column(name = "co2_emissions")
-    private Double co2Emissions;
+    private Double co2Emissions; // Stellen Sie sicher, dass dies korrekt ist
 
     @Column(name = "country")
     private String country;
